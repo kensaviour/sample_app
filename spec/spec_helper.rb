@@ -1,4 +1,4 @@
-z# This file is copied to spec/ when you run 'rails generate rspec:install'
+# This file is copied to spec/ when you run 'rails generate rspec:install'
 ENV["RAILS_ENV"] ||= 'test'
 require File.expand_path("../../config/environment", __FILE__)
 require 'rspec/rails'
@@ -20,7 +20,7 @@ RSpec.configure do |config|
   # config.mock_with :mocha
   # config.mock_with :flexmock
   # config.mock_with :rr
-  
+
   # Adding the Capybara DSL to Rspec helper.
   config.include Capybara::DSL
 
